@@ -1,0 +1,187 @@
+/* Estilos da Página de Login e Cadastro */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+}
+
+.login-container {
+    background-color: #2c3e50;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    padding: 3rem 2.5rem;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+.login-container h2 {
+    color: #2c3e50;
+    margin-bottom: 1.8rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.login-container h2 i {
+    margin-right: 12px;
+    color: #f39c12;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1.5px solid #dddddd;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #f39c12;
+    box-shadow: 0 0 8px #f39c12;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-top: 0.8rem;
+    box-shadow: 0 4px 12px rgba(243, 156, 18, 0.6);
+}
+
+.login-btn:hover {
+    background-color: #e67e22;
+    box-shadow: 0 6px 18px rgba(230, 126, 34, 0.8);
+}
+
+.login-options {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.forgot-password {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.forgot-password:hover {
+    color: #f39c12;
+}
+
+.register-link {
+    color: #f39c12;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Toggle buttons for login/register */
+.form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.form-toggle button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    color: #888;
+    border-bottom: 3px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.form-toggle button.active {
+    color: #f39c12;
+    border-color: #f39c12;
+}
+
+/* Hide inactive form */
+.login-form {
+    display: none;
+}
+
+.login-form.active-form {
+    display: block;
+}
+
+/* Additional styling for registration prompt */
+.login-prompt {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.login-prompt a {
+    color: #f39c12;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
+
+/* Forgot password form styling */
+.forgot-password-form {
+    background-color: #2c3e50;
+    border: 1px solid #f39c12;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(243, 156, 18, 0.3);
+}
+
+.forgot-password-form h3 {
+    color: #f39c12;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.forgot-password-form .input-group label {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.forgot-password-form .input-group input {
+    border-color: #f39c12;
+}
+
+.forgot-password-form .login-btn {
+    background-color: #f39c12;
+    margin-top: 0.5rem;
+}
+
+.forgot-password-form .login-btn:hover {
+    background-color: #e67e22;
+}
+    box-shadow: 0 6px 18px rgba(230, 126, 34, 0.8);
+}
